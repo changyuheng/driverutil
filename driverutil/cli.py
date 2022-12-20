@@ -30,4 +30,6 @@ def get_args() -> argparse.Namespace:
 
 def main() -> int:
     args: argparse.Namespace = get_args()
+    if not hasattr(args, 'func'):
+        raise ValueError('Invalid argument(s), please check the help')
     return args.func(args)
