@@ -1,6 +1,6 @@
 # driverutil
 
-A driver utility.
+A Windows driver utility.
 
 ## Development
 
