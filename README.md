@@ -2,6 +2,14 @@
 
 A Windows driver utility.
 
+## Usage
+
+### List SourceDiskFiles
+
+```
+driverutil source-disk-files <INF>
+```
+
 ## Development
 
 * Python 3.11+
