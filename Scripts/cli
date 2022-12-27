@@ -2,7 +2,7 @@
 
 import sys
 
-import driverutil
+import driverutil.cli
 
 
-sys.exit(driverutil.main())
+sys.exit(driverutil.cli.main())
